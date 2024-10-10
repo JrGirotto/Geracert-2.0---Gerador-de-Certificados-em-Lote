@@ -31,27 +31,23 @@ O **Geracert 2.0** é uma aplicação que permite a geração em lote de certifi
 
 3. Instale as dependências:
     ```bash
-    pip install -r requirements.txt
+    pip install ...
     ```
 
-4. Prepare um arquivo CSV com as informações dos certificados, seguindo o formato especificado no projeto.
+4. Prepare um arquivo XLSX com as informações dos certificados, seguindo o formato especificado no projeto.
 
 5. Execute a aplicação:
     ```bash
-    python main.py caminho_para_o_seu_arquivo.csv
+    python gerar_certificados.py 
     ```
 
-   Exemplo:
-    ```bash
-    python main.py dados_certificados.csv
-    ```
 
 6. Os certificados serão gerados e salvos no diretório especificado.
 
 ## Requisitos
 
 - Python 3.x
-- Dependências listadas no arquivo `requirements.txt`
+- Dependências listadas no arquivo 
 
 ## Contribuição
 
